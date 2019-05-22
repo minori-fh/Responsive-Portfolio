@@ -247,4 +247,63 @@ body {
     }
 
 }
+
+@media screen and (max-width: 640px){
+  
+    .container {
+      width: 425px; 
+      margin: 0; 
+      padding: 0; 
+    }
+  
+    #headerContainer {
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; /*horizontal alignment*/
+      align-items: center; /*vertical alignment*/
+      width: 100vw; 
+    }
+  
+    #masthead {
+      width: 100%; 
+      margin: 0 auto; 
+    }
+  
+    #main-container {
+      margin-top: 20px; 
+      margin-left: 23px; 
+    }
+  
+    #logo {
+      width: 100vw; 
+    }
+  
+    .main-section {
+      max-width: 580px; 
+      margin-top: 35px; 
+    }
+  
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+  
+    nav {
+      width: 100vw; 
+      display: flex; 
+      justify-content: center; /*horizontal alignment*/
+      align-items: center; /*vertical alignment*/
+    }
+  
+  
+    body {
+      margin: 0; 
+    }
+  
+    footer {
+      /* text-align: center;  */
+      display: flex; 
+      justify-content: center; 
+    }
+}
   

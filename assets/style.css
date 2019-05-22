@@ -217,21 +217,34 @@ body {
     border: 0 none;
   }
 
-  @media screen and (max-width: 980px){
+@media screen and (max-width: 980px){
 
     .container {
-      width: 900px;
-      margin-left: 40px;
+        width: 900px;
+        margin-left: 40px;
     }
-    
+
     #main-container {
-      width: 700px;
+        width: 700px;
     }
-  
+
     #masthead {
-      left: 0px; 
-      top: 0px; 
+        left: 0px; 
+        top: 0px; 
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .container {
+        width: 700px; 
+        margin-left: 30px; 
     }
     
+    nav {
+        float: right; 
     }
+
+}
   
